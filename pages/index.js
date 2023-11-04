@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
 
       <Layout home>
         <section>
-          <p className={utilStyles.headingMd}>20231022からReact勉強中、現在22.5時間。</p>
+          <p className={utilStyles.headingMd}>Next.jsすべて理解した。</p>
         </section>
         <section>
           <h2 className={utilStyles.headingLg}>📝 React勉強日記</h2>
