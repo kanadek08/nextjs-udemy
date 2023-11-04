@@ -34,9 +34,7 @@ function Layout ({children, home}) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← ホームへ戻る</a>
-          </Link>
+          <Link href="/">← ホームへ戻る</Link>
         </div>
       )}
     </div>

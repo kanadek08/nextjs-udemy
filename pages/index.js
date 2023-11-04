@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from 'Styles/Home.module.css'
+import styles from '../Styles/Home.module.css'
 import Link from 'next/link'
 import Layout, { siteTitle } from '/components/Layout'
-import utilStyles from 'Styles/utils.module.css'
+import utilStyles from '../Styles/utils.module.css'
 import {getPostsData} from 'lib/posts'
 
 export async function getStaticProps() {
